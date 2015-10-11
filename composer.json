@@ -1,0 +1,18 @@
+{
+    "name": "inso-61/iwaphp-eagle-cms",
+    "license": "Open source",
+    "authors": [
+        {
+            "name": "inso-61",
+            "email": "damien.galicher@gmail.com"
+        }
+    ],
+    "require": {
+        "tinymce/tinymce": ">= 4"
+    },
+    "autoload": {
+        "psr-4" : {
+            "IwaPHP\\" : "core"
+        }
+    }
+}
